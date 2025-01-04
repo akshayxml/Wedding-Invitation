@@ -2,7 +2,7 @@
 <p align="center"><a href="https://wedding.akshayxml.com/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
 <h1 align="center"><a href="https://wedding.akshayxml.com/">Wedding Invitation</a> :ring: <br> 
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Wedding-Invitation?logo=github)](https://wedding.akshayxml.com/) [![Netlify Status](https://api.netlify.com/api/v1/badges/e945f101-f434-45e6-8c33-df855c6b2082/deploy-status)](https://app.netlify.com/sites/sonali/deploys) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Wedding-Invitation?logo=github)](https://github.com/vinitshahdeo/Wedding-Invitation) [![GitHub Star - Vinit Shahdeo](https://img.shields.io/badge/GitHub_Star-%E2%AD%90_vinitshahdeo-E89B25?colorA=302237&logo=github)](https://stars.github.com/profiles/vinitshahdeo/) [![Peerlist](https://github-readme-badge.peerlist.io/api/vinitshahdeo)](https://peerlist.io/vinitshahdeo)
+
 
 ## Wedding Invitation :ring:
 
@@ -11,13 +11,12 @@
   <a href="https://wedding.akshayxml.com/"><img src="./assets/img/sonali.jpeg" /></a>
 </details>
 
-- [Download](https://github.com/vinitshahdeo/vinitshahdeo/raw/master/docs/Sonali%20%26%20Gagan.pdf) the Invitation card
+- [Download]() the Invitation card
 
-- Find [venue](https://goo.gl/maps/5z5xX2hTYzU8VGEJ9) on Google map
+- Find [wedding venue](https://maps.app.goo.gl/dx8HYviEFnhpyQaW9) and [reception venue](https://maps.app.goo.gl/iu262n5oy4s9EyMf8) on Google map
+
+- Add the events to your calendar:
+  - [Wedding](https://www.google.com/calendar/render?action=TEMPLATE&text=Wedding&dates=20250223T060000Z/20250223T070000Z&details=Bless+the+married+couple&location=Kariyad+CH+Moidu+Master+Auditorium)
+  - [Reception](https://www.google.com/calendar/render?action=TEMPLATE&text=Reception&dates=20250223T123000Z/20250223T143000Z&details=Bless+the+married+couple&location=Broad+Bean,+Kannur+|+The+Business+Class+Hotel,+Central+Bus+Terminal,+Thavakkara,+Kannur,+Kerala+670001,+India)
 
 - Visit the [website](https://wedding.akshayxml.com/) for more details
-
-- See the Facebook [post](https://www.facebook.com/vinit.shahdeo/posts/3521599654622390)
-
-```
-
