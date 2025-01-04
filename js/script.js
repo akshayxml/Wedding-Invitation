@@ -1,3 +1,12 @@
+(function ($) {
+    "use strict";
+      $('.sakura-falling').sakura();
+})(jQuery);
+
+$(document).ready(function() {
+    document.getElementById("my_audio").play();
+});
+
 const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
 
   function updateCountdown() {
