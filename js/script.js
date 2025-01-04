@@ -18,6 +18,8 @@ const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
     if (timeLeft <= 0) {
       clearInterval(timer);
       document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+      document.getElementById("time").style.display = "block";
+      document.querySelector(".countdown-container").style.display = "none";
       return;
     }
     else{
@@ -53,4 +55,4 @@ const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
   }
 
 timer = setInterval(updateCountdown, 1000);
-  updateCountdown();
+updateCountdown();
