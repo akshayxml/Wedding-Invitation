@@ -582,7 +582,7 @@ a {
 	display: grid;
 	grid-template-columns: repeat(4, 120px);
 	gap: 20px;
-  }
+}
 
 @media (max-width:900px) {
 	.countdown-container {

@@ -20,7 +20,7 @@ const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
       return;
     }
     else{
-        document.querySelector(".countdown-container").style.display = "flex";
+        document.querySelector(".countdown-container").style.display = "grid";
         document.getElementById("time").style.display = "none";
     }
 
