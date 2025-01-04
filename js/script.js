@@ -3,9 +3,10 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
-$(document).ready(function() {
+$(document).on('mousemove', function(){
     document.getElementById("my_audio").play();
 });
+
 
 const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
 
@@ -20,7 +21,7 @@ const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
       return;
     }
     else{
-        document.querySelector(".countdown-container").style.display = "grid";
+        document.querySelector(".countdown-container").style.display = "flex";
         document.getElementById("time").style.display = "none";
     }
 
