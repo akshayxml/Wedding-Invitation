@@ -344,7 +344,7 @@
 }
 
 .sakura {
-	background: #674ea7;
+	background: #d48624;
 }
 
 
@@ -370,6 +370,8 @@ img {
 	top: 0;
 	right: 0;
 	display: block;
+	z-index: -1;
+	min-height: 100vh;
 }
 
 .top-left-decoration {
@@ -384,8 +386,8 @@ img {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 60px;
-	margin: 32px 0;
-	color: #674ea7;
+	margin: 16px 0;
+	color: #d48624;
 }
 
 .title h2 {
@@ -395,7 +397,7 @@ img {
 	margin: 0;
 	padding: 0;
 	font-size: 24px;
-	color: #e25c67;
+	color: #ede4b8;
 	line-height: 1;
 }
 
@@ -404,9 +406,10 @@ img {
 	font-weight: bolder;
 	font-style: normal;
 	font-size: 32px;
-	color: #674ea7;
+	color: #d48624;
 	margin: 16px;
 	text-align: center;
+	margin-bottom: 0px;
 }
 
 .title h3 {
@@ -414,13 +417,13 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 24px;
-	color: #674ea7;
+	color: #d48624;
 	margin-top: 5px;
 }
 
 .title p {
-	color: #564861;
-	margin: 30px 0 20px;
+	color: #e8d36c;
+	margin: 30px 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-size: 16px;
@@ -456,6 +459,11 @@ body {
 	/* height: 100vh;
     width: 100%; */
 	flex-direction: column;
+		background-image: url("../assets/img/bg.jpg"); /* Replace with your image URL */
+		background-size: cover; 
+		background-repeat: no-repeat; 
+		background-position: center center; /* Optional: Center the image */
+		min-height: 100vh; /* Ensure the body covers the entire viewport height */
 }
 
 .title {
@@ -474,7 +482,7 @@ body {
 .venue {
 	width: auto;
 	height: auto;
-	background-color: #674ea7;
+	background-color: #d48624;
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
@@ -513,7 +521,7 @@ body {
 }
 
 .minutes {
-	background-color: #874562;
+	background-color: #ede4b8;
 }
 
 .seconds {
@@ -521,24 +529,24 @@ body {
 }
 
 .date {
-	color: #874562;
+	color: #ede4b8;
 	font-weight: 900;
 }
 
 .place {
-	color: #874562;
+	color: #ede4b8;
 	font-weight: 900;
 }
 
 .footer {
-	color: #564861;
+	color: #e8d36c;
 	text-align: center;
 	font-size: 16px;
 	margin: 24px;
 }
 
 .phone {
-	color: #874562
+	color: #ede4b8
 }
 
 .end-msg {
@@ -554,11 +562,11 @@ body {
 
 a {
 	text-decoration: none;
-	color: #564861; 
+	color: #e8d36c; 
 }
 
 .happiness {
-	color: #874562;
+	color: #ede4b8;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
@@ -566,7 +574,7 @@ a {
 }
 
 .twitter {
-	color: #874562;
+	color: #ede4b8;
 }
 
 .music {
@@ -618,7 +626,7 @@ a {
   #hours-progress,
   #minutes-progress,
   #seconds-progress {
-	stroke: #874562;
+	stroke: #14302a;
 	stroke-dasharray: 283; /* 2 * Math.PI * r (r = 45) */
 	stroke-dashoffset: 283;
 	transition: stroke-dashoffset 1s linear;
