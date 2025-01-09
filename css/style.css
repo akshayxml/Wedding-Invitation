@@ -468,6 +468,39 @@ body {
 
 .title {
 	margin-bottom: 40px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.horizontal-line {
+	width: 100%; /* Adjust the width as needed */
+	justify-content: center;
+	height: 2px; /* Adjust the thickness of the line */
+	background-color: #14302a; /* Choose your desired color */
+}
+
+.vertical-line {
+	border-left: 2px solid black; /* Adjust thickness and color as needed */
+	height: 100%; /* Set the height of the line */
+	bottom: 0%;
+  }
+
+.wedding-time-block{
+	display: flex;
+}
+
+.wedding-time-block-mid{
+	display: flex;
+	flex-direction: column;
+}
+
+.wedding-time-block p{
+	margin: 15px;
+}
+
+.reception-block{
+	display: flex;
 }
 
 #time {
@@ -531,6 +564,9 @@ body {
 .date {
 	color: #ede4b8;
 	font-weight: 900;
+	font-size: 40px;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 10px;
 }
 
 .place {
@@ -639,5 +675,6 @@ a {
 	transform: translate(-50%, -50%);
 	/* font-size: 18px; */
 	font-weight: 100;
+	color: #d48624;
   }
   
