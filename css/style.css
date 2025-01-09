@@ -361,7 +361,7 @@ img {
 
 @media (max-width:900px) {
 	img {
-		max-width: 30%;
+		max-width: 40%;
 	}
 }
 
@@ -371,7 +371,6 @@ img {
 	right: 0;
 	display: block;
 	z-index: -1;
-	min-height: 100vh;
 }
 
 .top-left-decoration {
@@ -379,6 +378,7 @@ img {
 	top: 0;
 	left: 0;
 	display: block;
+	z-index: -1;
 }
 
 .title h1 {
@@ -459,11 +459,11 @@ body {
 	/* height: 100vh;
     width: 100%; */
 	flex-direction: column;
-		background-image: url("../assets/img/bg.jpg"); /* Replace with your image URL */
-		background-size: cover; 
-		background-repeat: no-repeat; 
-		background-position: center center; /* Optional: Center the image */
-		min-height: 100vh; /* Ensure the body covers the entire viewport height */
+	background-color: #26564c; /* Replace with your image URL */
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: left; /* Optional: Center the image */
+	min-height: 100vh; /* Ensure the body covers the entire viewport height */
 }
 
 .title {
