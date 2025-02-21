@@ -17,14 +17,17 @@ const targetDate = new Date("2025-02-23T11:30:00+05:30"); // Target time in IST
 
     if (timeLeft <= 0) {
       clearInterval(timer);
-      document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
-      document.getElementById("time").style.display = "block";
-      document.querySelector(".countdown-container").style.display = "none";
+      document.getElementById("bless").innerHTML = "Bless the married couple for happy life!";
+      document.getElementById("bless").style.display = "block";
+      document.getElementById("bless").style.backgroundColor = "transparent";
+      document.getElementById("bless").style.color = "#ede4b8";
+      document.querySelector(".details").style.display = "none";
       return;
     }
     else{
         document.querySelector(".countdown-container").style.display = "grid";
-        document.getElementById("time").style.display = "none";
+        document.getElementById("bless").style.display = "none";
+        document.querySelector(".details").style.display = "contents";
     }
 
     const totalDays = 100; // Assume the countdown starts with 100 days
